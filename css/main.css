@@ -51,6 +51,7 @@ body {
 #skills-container {
   max-width: 620px !important;
   max-height: 330px !important;
+  margin-bottom: 75px;
 }
 
 @media (min-width:961px) {
