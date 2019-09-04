@@ -2,17 +2,495 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- fullpage css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.css" />
+  <!--  bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <!-- main css -->
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- google fonts: Roboto, Playfair -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Roboto:400,400i,700&display=swap"
+    rel="stylesheet" />
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/15a7b3a514.js"></script>
+  <!-- Devicon -->
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
   <title>Alex Htut</title>
 </head>
 
 <body>
+  <div id="fullpage">
+    <div class="section">
+      <div class="lg hidden">
+        <h1><span class="title fadein">"ALEX"</span></h1>
+        <h1>
+          <span class="title fadein">KYAW</span>
+          <img style="display: inline" class="avatar fadeinDown"
+            src="https://media.licdn.com/dms/image/C5603AQHYZOgViTTpYw/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=xUCcNjInGgqt44Ei55ctLVZ7LF2Pmyhwhlc4cO9r3ks"
+            alt="Alex Htut" />
+          <span class="title fadein">HTUT</span>
+        </h1>
+      </div>
 
-  <h1>Welcome to Home page</h1>
+      <div class="sm hidden">
+        <h1><span class="title fadein">KYAW</span></h1>
+        <h1>
+          <span class="title fadein">"ALEX"</span>
+          <img style="display: inline" class="avatar fadeinDown"
+            src="https://media.licdn.com/dms/image/C5603AQHYZOgViTTpYw/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=xUCcNjInGgqt44Ei55ctLVZ7LF2Pmyhwhlc4cO9r3ks"
+            alt="Alex Htut" />
+        </h1>
+        <h1><span class="title fadein">HTUT</span></h1>
+      </div>
+
+      <p class="fadeinLong lead">
+        Hello! My name is Alex Htut and I am looking for a Software Developer
+        position.
+      </p>
+      <a class="btn btn-primary fadeinLong" target="_blank"
+        href="https://drive.google.com/file/d/1FV4qZCwMpcgwv2QJsAnPwUQjbzXT_sAm">RESUME</a>
+    </div>
+
+    <!-- Education page -->
+    <div class="section">
+      <div class="container">
+        <h1>Education</h1>
+        <div class="container">
+          <hr width="80%">
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <a href="https://www.washington.edu" target="_blank">
+              <img class="logo"
+                src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/98/2014/09/07214451/W-Logo_Purple_Hex.png"
+                alt="University of Washington" />
+            </a>
+            <p class="lead">
+              I graduated from University of Washington in June 2019. I
+              majored in Electrical and Computer Engineering.
+            </p>
+          </div>
+          <div class="col-md-9 col-sm-12">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                  aria-controls="pills-home" aria-selected="true">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                  aria-controls="pills-profile" aria-selected="false">Self-taught</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                <table class="table table-dark table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Course #</th>
+                      <th scope="col">Language</th>
+                      <th scope="col">Descriptions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- CSE 142/143 -->
+                    <tr>
+                      <th scope="row">CSE 142/143</th>
+                      <td>
+                        <i title="Java" class="fab fa-java"></i>
+                      </td>
+                      <td>
+                        Intro to Java Programming and Basic Data Structures
+                      </td>
+                    </tr>
+                    <!-- CSE 373 -->
+                    <tr>
+                      <th scope="row">CSE 373</th>
+                      <td>
+                        <i title="Java" class="fab fa-java"></i>
+                      </td>
+                      <td>Data Structures and Algorithms</td>
+                    </tr>
+                    <!-- CSE 374 -->
+                    <tr>
+                      <th scope="row">CSE 374</th>
+                      <td>
+                        <i title="C" class="devicon-c-plain"></i><br />
+                        <i title="Cpp" class="devicon-cplusplus-plain"></i>
+                      </td>
+                      <td>Programming Concepts and Tools</td>
+                    </tr>
+                    <!-- CSE 414 -->
+                    <tr>
+                      <th scope="row">CSE 414</th>
+                      <td>
+                        <i title="MySQL" class="devicon-mysql-plain-wordmark"></i><br />
+                        <i title="Java" class="fab fa-java"></i>
+                      </td>
+                      <td>Introduction to Data Management</td>
+                    </tr>
+                    <!-- INFO 201 -->
+                    <tr>
+                      <th scope="row">INFO 201</th>
+                      <td>
+                        <i title="R" class="fab fa-r-project"></i>
+                      </td>
+                      <td>Technical Foundation of Data Science</td>
+                    </tr>
+                    <!-- INDE 315 -->
+                    <tr>
+                      <th scope="row">INDE 315</th>
+                      <td>
+                        <i title="excel" class="fas fa-file-excel"></i>
+                      </td>
+                      <td>Probability and Statistics for Engineers</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <table class="table table-dark table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Language</th>
+                      <th scope="col">Books/Online courses</th>
+                      <th scope="col">Projects</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- python -->
+                    <tr>
+                      <th scope="row">
+                        <i title="python" class="fab fa-python"></i>
+                      </th>
+                      <td>
+                        <a target="_blank" href="https://automatetheboringstuff.com/">
+                          Automate the Boring Stuff
+                        </a> <br>
+                        <a target="_blank"
+                          href="https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0134692888/ref=sr_1_3?keywords=learn+python+the+hard+way+3&qid=1567537050&s=gateway&sr=8-3">
+                          Learn Python3 the Hard Way
+                        </a>
+                      </td>
+                      <td>
+                        <a target="_blank" href="https://github.com/htutk/blackjack">
+                          Blackjack
+                        </a> <br>
+                        <a target="_blank" href="https://github.com/htutk/machine_learning">
+                          Machine Learning
+                        </a>
+                      </td>
+                    </tr>
+                    <!-- Front-end -->
+                    <tr>
+                      <th scope="row">
+                        <i title="HTML" class="fab fa-html5"></i>
+                        <i title="CSS" class="fab fa-css3"></i>
+                        <i title="Javascript" class="fab fa-js-square"></i><br>
+                        <i title="jQuery" class="devicon-jquery-plain"></i>
+                        <i title="Boostrap" class="devicon-bootstrap-plain"></i>
+                      </th>
+                      <td>
+                        <a target="_blank" href="https://www.udemy.com/the-web-developer-bootcamp">
+                          The Web Developer Bootcamp
+                        </a> <br>
+                      </td>
+                      <td>
+                        <a target="_blank" href="https://htutk.github.io/color_guessing_game/">
+                          Color Guessing Game
+                        </a> <br>
+                      </td>
+                    </tr>
+                    <!-- Back-end -->
+                    <tr>
+                      <th scope="row">
+                        <i title="Node" class="devicon-nodejs-plain"></i>
+                        <i title="Express" class="devicon-express-original"></i>
+                        <i title="MongoDB" class="devicon-mongodb-plain"></i><br>
+                        <i title="heroku" class="devicon-heroku-original"></i>
+                        <i title="user_authentication" class="fas fa-passport"></i>
+                      </th>
+                      <td>
+                        <a target="_blank" href="https://www.udemy.com/the-web-developer-bootcamp">
+                          The Web Developer Bootcamp
+                        </a> <br>
+                      </td>
+                      <td>
+                        <a target="_blank" href="https://aqueous-ravine-77450.herokuapp.com">
+                          YelpCamp
+                        </a> <br>
+                      </td>
+                    </tr>
+                    <!-- Data-science -->
+                    <tr>
+                      <th scope="row">
+                        Excel, Tableau, Gretl,<br>
+                        MS SQL Server Mgmt.,<br>
+                        SQL Server Tools for MS Code
+                      </th>
+                      <td>
+                        <a target="_blank" href="https://www.udemy.com/datascience/">
+                          Data Science A-Z
+                        </a> <br>
+                      </td>
+                      <td>
+                        Data Preparation with MS SQL Server<br>
+                        Data Modeling with Gretl and Excel<br>
+                        (Confusion Matrix, Cumulative Accurarcy Profile <br>
+                        (CAP), and Logistic Regression)<br>
+                        Data Visualization with Tableau<br>
+                      </td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- skills page -->
+    <div class="section">
+      <h1>Skills</h1>
+      <div class="container">
+        <hr width="50%">
+      </div>
+      <div class="sm container hidden">
+        <table class="table table-dark table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Category</th>
+              <th scope="col">Language</th>
+              <th scope="col">Proficiency</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Software Engineering</th>
+              <td>Python, Java/ <br> C/C++</td>
+              <td>Intermediate/ <br> Beginner</td>
+            </tr>
+            <tr>
+              <th scope="row">Front-end Development</th>
+              <td>HTML, CSS, JS, jQuery, Bootstrap</td>
+              <td>Intermediate</td>
+            </tr>
+            <tr>
+              <th scope="row">Back-end Development</th>
+              <td>Node, Express, MongoDB, Heroku</td>
+              <td>Intermediate</td>
+            </tr>
+            <tr>
+              <th scope="row">Data Science and Analytics</th>
+              <td>R, SQL, <br> Excel, Tableau, <br> MS SQL Server</td>
+              <td>Intermediate</td>
+            </tr>
+            <tr>
+              <th scope="row">Machine Learning</th>
+              <td>Python, R</td>
+              <td>Intermediate</td>
+            </tr>
+            <tr>
+              <th scope="row">Tools</th>
+              <td>Git</td>
+              <td>Intermediate</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="skills-container" class="lg container hidden">
+        <div class="row">
+          <div class="border box col-12 col-md-6 col-lg-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="https://cdn4.iconfinder.com/data/icons/construction-tools-glyph-silhouettes-2/300/22415407Untitled-3-512.png"
+                    alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back">
+                  <h4>Software Engineering</h4>
+                  <p> <strong>Java, Python</strong>: Intermediate <br> <strong>C/C++</strong>: Beginner </p>
+                  <a class="btn btn-sm btn-success" target="_blank" href="https://github.com/htutk">Take a look</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border box col-12 col-md-6 col-lg-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="https://image.flaticon.com/icons/svg/54/54776.svg" alt="Avatar"
+                    style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back back2">
+                  <h4>Front-end Development</h4>
+                  <p> <strong>HTML, CSS, JS, jQuery, Bootstrap</strong>: Intermediate </p>
+                  <a class="btn btn-sm btn-success" target="_blank"
+                    href="https://htutk.github.io/color_guessing_game">Take a look</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border box col-12 col-md-6 col-lg-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="https://img.icons8.com/cotton/2x/server.png" alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back back3">
+                  <h4>Back-end Development</h4>
+                  <p> <strong>Node, Express, MongoDB, Heroku</strong>: Intermediate </p>
+                  <a class="btn btn-sm btn-success" target="_blank"
+                    href="https://aqueous-ravine-77450.herokuapp.com/">Take a look</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border box col-12 col-md-6 col-lg-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/data-science-47-1170766.png"
+                    alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back back4">
+                  <h4>Data Science and Analytics</h4>
+                  <p> <strong>R, SQL, Excel, Tableau, MS SQL Server</strong>: Intermediate </p>
+                  <a class="btn btn-sm btn-success" target="_blank" href="https://github.com/htutk">Take a look</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border box col-12 col-md-6 col-lg-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/machine-learning-19-910812.png"
+                    alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back back5">
+                  <h4>Machine Learning</h4>
+                  <p> <strong>R, Python</strong>: Intermediate </p>
+                  <a class="btn btn-sm btn-success" target="_blank"
+                    href="https://github.com/htutk/machine_learning">Take a look</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border box col-12 col-md-6 col-lg-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="https://cdn2.iconfinder.com/data/icons/tools-outline-1/60/062_-_Toolbox-512.png"
+                    alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back back6">
+                  <h4>Tools</h4>
+                  <p> <strong>Git, gh-pages</strong>: Intermediate </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact section -->
+    <div class="section">
+      <h1>Contact Me</h1>
+      <div class="container">
+        <hr width="35%">
+      </div>
+      <div id="contact-table" class="col-sm-12 container contact">
+        <table class="table table-dark table-striped">
+          <tbody>
+            <tr>
+              <th scope="row">
+                <a title="alexanderhtut98@gmail.com" target="_blank" href="mailto:alexanderhtut98@gmail.com">
+                  <i class="fas fa-envelope"></i></a>
+              </th>
+              <td>
+                <a title="alexanderhtut98@gmail.com" target="_blank" href="mailto:alexanderhtut98@gmail.com">
+                  alexanderhtut98@gmail.com
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <a title="(360)-440-5607" target="_blank" href="tel:+13604405607">
+                  <i class="fas fa-phone-square-alt"></i></a>
+              </th>
+              <td>
+                <a title="(360)-440-5607" target="_blank" href="tel:+13604405607">
+                  (360) - 440 - 5607
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <a target="_blank" href="https://www.linkedin.com/in/kyaw-htut-20740ab1/">
+                  <i class="fab fa-linkedin"></i></a>
+              </th>
+              <td>
+                <a target="_blank" href="https://www.linkedin.com/in/kyaw-htut-20740ab1/">
+                  kyaw-htut-20740ab1
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <a target="_blank" href="https://www.facebook.com/alexander.htut">
+                  <i class="fab fa-facebook-square"></i></a>
+              </th>
+              <td>
+                <a target="_blank" href="https://www.facebook.com/alexander.htut">
+                  alexander.htut
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <a target="_blank" href="https://github.com/htutk">
+                  <i class="fab fa-github"></i></a>
+              </th>
+              <td>
+                <a target="_blank" href="https://github.com/htutk">
+                  htutk
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <!-- jQuery load -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <!-- fullpage cdn -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.js"></script>
+  <!-- fullpage js -->
+  <script type="text/javascript" src="js/fullpage.js"></script>
+  <!-- Bootstrap loads -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
 
 </body>
 
