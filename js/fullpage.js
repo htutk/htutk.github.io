@@ -1,6 +1,6 @@
 var properties = {
   navigation: true,
-  navigationTooltips: ['Home', 'Education', 'Skills', 'Contact'],
+  navigationTooltips: ['Home', 'Education', 'Skills', 'Projects', 'Contact'],
   scrollOverflow: true
 }
 
